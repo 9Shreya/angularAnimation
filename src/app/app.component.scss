@@ -1,0 +1,225 @@
+.nav-link {
+  width: 71px;
+  height: 25px;
+  margin: 0 4px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b292d;
+  cursor: pointer;
+}
+.fa {
+  margin-top: -18px;
+  position: absolute;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.dropDownitem {
+  list-style-type: none;
+  background-color: white;
+  border: 1px solid rgb(221, 220, 220);
+  padding: 7px 15px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.dropDownitem a {
+  color: #2b292d;
+  text-decoration: none;
+}
+.nav-item1,
+.nav-item2,
+.nav-item3 {
+  width: 100px;
+}
+.nav-item1:hover .dropDownitem {
+  opacity: 1;
+  visibility: visible;
+}
+.nav-item2:hover .dropDownitem {
+  opacity: 1;
+  visibility: visible;
+}
+.nav-item3:hover .dropDownitem {
+  opacity: 1;
+  visibility: visible;
+}
+.background {
+  background-color: rgb(223, 224, 238);
+  background-image: url("/assets/images/background/bg@3x.png");
+  background-size: cover;
+
+  background-position: center center;
+}
+
+.navbar-collapse.in {
+  display: block !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.btn-login {
+  background-color: #3142c6;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  padding-top: 3px;
+  color: white;
+  margin-top: 10px;
+}
+.Products {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #7a8499;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 6px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+.subText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #676971;
+}
+.Powered-by-EverestIM {
+  width: 188px;
+  font-size: 9.1px;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 2.19px;
+  color: #929497;
+}
+.infraonSecura {
+  width: 187px;
+  height: 25px;
+  margin: 1px 3px 0px 0;
+  font-size: 20.8px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: -10px;
+}
+.Standard {
+  margin: 11px 62px 16px 0px;
+
+  color: #304082;
+}
+.A-Remote-Access-Aut {
+  height: 48px;
+  margin: 16px 23px 24px 0px;
+  font-family: Inter-Regular_;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--676971-text-grey);
+}
+.LogoJustTextSecuRA {
+  width: 191px;
+  height: 60px;
+  margin: 16px 141px 11px 32px;
+  padding: 9px 0 10px;
+}
+.text-left {
+  border-radius: 24px;
+}
+.link-log {
+  width: 148px;
+  height: 48px;
+  margin: 0px 34px 0 57px;
+  padding: 14px 29px 14px 30px;
+  border-radius: 8px;
+  background-color: #3142c6;
+  color: white;
+}
+.enterises {
+  font-size: 40px;
+  font-weight: bold;
+  color: #232328;
+  justify-items: center;
+  text-align: center;
+}
+.rating {
+  margin-top: 50px;
+  color: #3142c6;
+}
+.img-responsive {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.service-wrap .card {
+  width: 220px;
+  height: 230px;
+
+  margin-top: 20px;
+  border-radius: 20px;
+  background-image: url("/assets/images/imageCard/group-6@3x.png");
+  background-size: cover;
+
+  background-position: center center;
+}
+.card-body {
+  margin: auto;
+  margin-left: 15px;
+}
+.service-wrap .card:hover {
+  transition: linear 400ms;
+  background-image: url("/assets/images/backgroundblue/group-2@3x.png");
+  background-size: 160% 160%;
+
+  background-position: center center;
+  .rating {
+    color: white;
+  }
+  color: white;
+}
+.move-right {
+  position: absolute;
+  right: -200px;
+  transition: linear 1s;
+}
+.move-left {
+  margin-left: -100px;
+  transition: linear 1s;
+}
+.move-normal {
+  transition: linear 1s;
+}
+.move-normal-right {
+  right: 0px;
+  position: relative;
+  transition: linear 1s;
+}
+.move-down {
+  margin-top: 200px !important;
+  transition: linear 1s;
+}
+.move-normal-down {
+  margin-top: 0px !important;
+  transition: linear 1s;
+}
+.move-normal-down-footer {
+  margin-top: 100px !important;
+  transition: linear 1s;
+}
+.borderShadowOff {
+  box-shadow: 0 rgba(0, 0, 255, 0.2);
+  transition: linear 1s;
+}
+.borderShadowOn {
+  box-shadow: 2px 5px 5px rgb(136, 135, 135);
+  transition: linear 1s;
+}
